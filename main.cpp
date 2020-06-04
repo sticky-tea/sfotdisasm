@@ -27,7 +27,7 @@ int main(int argc, char** argv)
 	}
 	else
 	{
-		std::cout << "sfotdisasm input.nes [ouput.asm]" << std::endl;
+		std::cout << "sfotdisasm\nNES 6502 ROM disassembler\n\nUsage:\nsfotdisasm input.nes [output.asm]" << std::endl;
 		return 0;
 	}
 
